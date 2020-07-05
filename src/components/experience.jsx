@@ -12,7 +12,8 @@ class Experience extends Component {
           </p>
         </Cell>
         <Cell col={8}>
-          <h4 className="mt-0">{This.jobName}</h4>
+          <h4 className="mt-0 mb-0 lh-16">{This.jobName}</h4>
+          <small className="mt-0 lh-32 ed-ex-det">{This.jobCompany}</small>
           <p>{This.jobDescription}</p>
         </Cell>
       </Grid>

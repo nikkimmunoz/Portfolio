@@ -125,6 +125,7 @@
 }
 
 .contact-list .item-content {
+  width: 100%;
   font-size: 30px;
   font-family: "Anton";
 }
@@ -140,7 +141,57 @@
 }
 
 .resume-avatar {
-  height: 200px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.ed-ex-det {
+  font-size: 13px !important;
+  font-style: italic;
+}
+
+.lh-16 {
+  line-height: 16px;
+}
+
+.lh-32 {
+  line-height: 32px;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mb-1 {
+  margin-bottom: 1em;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mt-1 {
+  margin-top: 1em;
+}
+
+.pb-0 {
+  padding-bottom: 0px;
+}
+
+.pb-1 {
+  padding-bottom: 1em;
+}
+
+.pb-2 {
+  padding-bottom: 2em;
+}
+
+.pt-0 {
+  padding-top: 0px;
+}
+
+.pt-1 {
+  padding-top: 1em;
 }
 
 .pt-2 {
@@ -162,10 +213,6 @@
 
 .resume-hr.details {
   border-color: #e22947;
-}
-
-.mt-0 {
-  margin-top: 0px;
 }
 
 .d-flex {
@@ -201,4 +248,8 @@
 
 .text-black {
   color: black;
+}
+
+.hidden {
+  display: hidden;
 }

@@ -7,10 +7,10 @@ class Contact extends Component {
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6}>
-            <h2>Oliver Muñoz</h2>
+            <h2>Nikki Oliver Muñoz</h2>
             <img
               src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
-              alt="avatar"
+              alt="avatar_placeholder"
               style={{ height: "250px" }}
             />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
@@ -26,21 +26,24 @@ class Contact extends Component {
             <div className="contact-list">
               <List>
                 <ListItem>
+                  <i className="fa fa-phone-square w-25" aria-hidden="true" />
                   <ListItemContent className="item-content">
-                    <i className="fa fa-phone-square" aria-hidden="true" />
-                    (+63) 995 834 1675
+                    (+63) 000 834 1675
                   </ListItemContent>
                 </ListItem>
                 <ListItem>
+                  <i className="fa fa-envelope w-25" aria-hidden="true" />
                   <ListItemContent className="item-content">
-                    <i className="fa fa-envelope" aria-hidden="true" />
                     nikkimmunoz@gmail.com
                   </ListItemContent>
                 </ListItem>
                 <ListItem>
+                  <i
+                    className="fa fa-facebook-square w-25"
+                    aria-hidden="true"
+                  />
                   <ListItemContent className="item-content">
-                    <i className="fa fa-skype" aria-hidden="true" />
-                    My Skype ID
+                    @nikkimmunoz
                   </ListItemContent>
                 </ListItem>
               </List>
